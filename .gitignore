@@ -16,3 +16,7 @@ mlflow_server.log
 .DS_Store
 __MACOSX/
 Thumbs.db
+
+# Node (paper build)
+node_modules/
+package-lock.json
