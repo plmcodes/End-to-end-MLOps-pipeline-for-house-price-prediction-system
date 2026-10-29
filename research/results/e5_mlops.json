@@ -1,0 +1,30 @@
+{
+  "training_runs_completed": 5,
+  "training_duration_s": {
+    "median": 53.98972,
+    "min": 36.977607,
+    "max": 83.726632
+  },
+  "distinct_R2_values": {
+    "0.8567861675345597": 3,
+    "0.9221139768594216": 2
+  },
+  "inference_runs_completed": 4,
+  "inference_duration_s_median": 5.6268765,
+  "server_startup_s": 39.75,
+  "latency_single": {
+    "rows_per_request": 1,
+    "requests": 200,
+    "median_ms": 66.10589998308569,
+    "p95_ms": 77.98537990893236,
+    "mean_ms": 65.64438049914315
+  },
+  "latency_batch100": {
+    "rows_per_request": 100,
+    "requests": 50,
+    "median_ms": 68.3388999896124,
+    "p95_ms": 78.12887505278923,
+    "mean_ms": 68.47319799941033
+  },
+  "server_left_running": false
+}

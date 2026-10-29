@@ -1,0 +1,10 @@
+model,features,vs_best,RMSE_usd_diff,t,p_value
+Linear Regression,Numeric only,XGBoost | Numeric + categorical,17814.083349293374,1.4145958627876527,0.17904166022326257
+Ridge,Numeric only,XGBoost | Numeric + categorical,19348.990235450823,1.4216470707379139,0.1770220677687561
+Lasso,Numeric only,XGBoost | Numeric + categorical,16453.54133941249,1.4276589686669376,0.17531505633893696
+Random Forest,Numeric only,XGBoost | Numeric + categorical,4699.93229197328,7.267491816372536,4.110983013426469e-06
+XGBoost,Numeric only,XGBoost | Numeric + categorical,2001.976555898109,5.0281093450061425,0.00018464481867073727
+Linear Regression,Numeric + categorical,XGBoost | Numeric + categorical,4652071288.1352005,5.717046620168614,5.323637414491587e-05
+Ridge,Numeric + categorical,XGBoost | Numeric + categorical,8091.02593444895,1.009325112635136,0.32994591135338847
+Lasso,Numeric + categorical,XGBoost | Numeric + categorical,8198.540992336442,1.0694991247436472,0.3029384865756509
+Random Forest,Numeric + categorical,XGBoost | Numeric + categorical,3864.6491004249474,7.713105999484478,2.0894836997478538e-06

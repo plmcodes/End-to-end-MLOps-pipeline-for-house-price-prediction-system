@@ -1,0 +1,45 @@
+{
+  "rows": 2930,
+  "columns": 82,
+  "numeric_columns": 39,
+  "categorical_columns": 43,
+  "missing_cells": 15749,
+  "columns_with_missing": 27,
+  "price_min": 12789.0,
+  "price_max": 755000.0,
+  "price_median": 160000.0,
+  "price_mean": 180796.0600682594,
+  "price_skew": 1.7435000757376466,
+  "log_price_skew": -0.014772659537224368,
+  "cv": "5-fold x 3 repeats",
+  "seed": 42,
+  "exp0": {
+    "original": {
+      "rows_kept": 2058,
+      "R2_log": 0.9221139768594216,
+      "MSE_log": 0.010942367022909487
+    },
+    "target_only_fix": {
+      "rows_kept": 2910,
+      "R2_log": 0.8567861675345597,
+      "MSE_log": 0.01989165220270085
+    }
+  },
+  "houses_flagged_by_global_z": 872,
+  "best_model": {
+    "model": "XGBoost",
+    "features": "Numeric + categorical"
+  },
+  "exp4_holdout": {
+    "R2_log": 0.9481322679246927,
+    "RMSE_log": 0.09796453041804276,
+    "R2_usd": 0.9299116814483908,
+    "RMSE_usd": 23705.198868270625,
+    "MAE_usd": 13237.21529036902,
+    "MAPE_pct": 6.7578358126188895,
+    "Pct_off_by_50pct": 0.17064846416382254,
+    "Max_APE_pct": 62.38234374999996,
+    "N_capped": 0
+  },
+  "runtime_seconds": 688.3
+}

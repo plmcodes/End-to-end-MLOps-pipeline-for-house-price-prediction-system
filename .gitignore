@@ -1,0 +1,18 @@
+# Virtual environment (recreate with setup_windows.bat)
+venv/
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local MLflow / ZenML state (machine-specific; recreated on first run)
+mlruns/
+mlflow_server.log
+.zen/
+
+# OS junk
+.DS_Store
+__MACOSX/
+Thumbs.db

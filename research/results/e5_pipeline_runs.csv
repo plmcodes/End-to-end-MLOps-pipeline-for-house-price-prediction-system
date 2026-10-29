@@ -1,0 +1,10 @@
+pipeline,status,start,duration_s,R2_log
+ml_pipeline,completed,2026-10-28 02:47:27.152912,83.726632,0.9221139768594216
+ml_pipeline,completed,2026-10-28 02:59:26.631199,67.265474,0.9221139768594216
+windows_inference_pipeline,completed,2026-10-28 03:01:22.172446,8.61229,
+ml_pipeline,completed,2026-10-28 03:03:49.787391,53.98972,0.8567861675345597
+windows_inference_pipeline,completed,2026-10-28 03:05:26.173502,4.899918,
+ml_pipeline,completed,2026-10-28 03:11:15.143940,36.977607,0.8567861675345597
+windows_inference_pipeline,completed,2026-10-28 03:12:35.905801,5.345001,
+ml_pipeline,completed,2026-10-28 05:51:46.363314,40.697834,0.8567861675345597
+windows_inference_pipeline,completed,2026-10-28 05:53:13.403832,5.908752,
